@@ -1,5 +1,13 @@
+import { styled } from "../../styles"
+
+const Button = styled('button', {
+    backgroundColor: '$primary'
+})
+
+
+
 export default function Product (){
-    return (<h1>Produtc</h1>
+    return (<Button>Produtc</Button>
 
     )
 }
