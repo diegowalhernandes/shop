@@ -1,13 +1,10 @@
-import { styled } from "../../styles"
-
-const Button = styled('button', {
-    backgroundColor: '$primary'
-})
-
-
+import { useRouter } from "next/router";
 
 export default function Product (){
-    return (<Button>Produtc</Button>
+    const {query} = useRouter();
+    
+    return (
+        <h1>Product {JSON.stringify(query)}</h1>
 
     )
 }
