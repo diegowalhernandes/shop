@@ -48,9 +48,9 @@ export default function Product({ product }: ProductProps) {
       </ImageContainer>
 
       <ProductDetails>
-        <h1>teste</h1>
-        <span>teste</span>
-        <p>teste</p>
+        <h1>Neuza Feiosa</h1>
+        <span>comprei isso daqui</span>
+        <p>ahgfjhasgfkjhasfkjasjagsjfhajhahsdfvasc</p>
 
         <button disabled={isCreatingCheckoutSession} onClick={handeleBuyProduct}>
           Comprar Agora
